@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff9f4" />
+  <meta name="description" content="A little thank-you surprise for Emma." />
+  <title>A Little Thank You, Emma 💐</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><span class="glow one"></span><span class="glow two"></span><span class="glow three"></span></div>
+  <main class="page">
+    <section class="hero" aria-label="A thank-you surprise for Emma">
+      <div class="eyebrow">a special little surprise</div>
+      <h1>Something lovely<br />for <em>Emma</em></h1>
+      <p class="subtitle">Some acts of kindness deserve more than just a thank you. We made something special, just for you. 💗</p>
+      <div class="envelope-stage" id="envelope" role="button" tabindex="0" aria-label="Open your thank-you card">
+        <span class="star s1">✧</span><span class="star s2">✦</span><span class="star s3">✧</span>
+        <span class="note">For Emma ♡</span>
+        <div class="envelope" aria-hidden="true"><span class="side-left"></span><span class="side-right"></span></div>
+        <span class="wax" aria-hidden="true">♥</span>
+        <span class="flower f1" aria-hidden="true">🌸</span><span class="flower f2" aria-hidden="true">🌼</span>
+      </div>
+      <button class="open-btn" id="open-btn" type="button">💌 &nbsp; Open your surprise <span aria-hidden="true">✧</span></button>
+      <p class="hint">Psst... you can tap the envelope too!</p>
+      <p class="footer">Made with appreciation, just for you ✨</p>
+    </section>
+  </main>
+
+  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="dialog-title" aria-hidden="true">
+    <div class="modal" id="modal">
+      <button type="button" class="close-btn" id="close-btn" aria-label="Close the card">&times;</button>
+      <p class="mini" id="dialog-title">A note from the heart</p>
+      <img class="card-image" src="thank-you-emma.png" alt="Beautiful blue watercolor thank-you card with gold floral decorations reading Thank you Emma" />
+      <p class="message">Thank you so much for sharing your creativity and talent with our community! We truly appreciate the time, effort, and care you put into creating such a beautiful painting for our upcoming event. Your thoughtful contribution means so much to us, and we are grateful for your kindness and support. 💐💗 💐</p>
+      <p class="signature">With love &amp; gratitude ♡</p>
+      <button type="button" id="replay-btn" class="replay">✨ A little more sparkle</button>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
